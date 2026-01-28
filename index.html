@@ -1,43 +1,100 @@
-/* ===== Root & Global Styles ===== */
-:root {
-    --primary-color: #FF6B9D;      /* Vibrant coral-pink */
-    --primary-dark: #E63B6D;       /* Darker pink */
-    --secondary-color: #A29BFE;    /* Soft lavender */
-    --secondary-dark: #7C6FD4;     /* Darker lavender */
-    --accent-color: #74B9FF;       /* Sky blue */
-    --accent-dark: #5A9FD4;        /* Darker blue */
-    --background-color: #FFF9E6;   /* Soft cream */
-    --text-color: #2D3436;         /* Dark gray */
-    --light-text: #636E72;         /* Light gray */
-    --white: #FFFFFF;
-    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.15);
-    --shadow-hover: 0 15px 40px rgba(255, 107, 157, 0.3);
-    --radius: 12px;
-    --radius-lg: 20px;
-    --gradient-1: linear-gradient(135deg, #FF6B9D, #A29BFE);
-    --gradient-2: linear-gradient(135deg, #A29BFE, #74B9FF);
-    --gradient-3: linear-gradient(135deg, #74B9FF, #FF6B9D);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anvita's Corner – A playful personal website introducing Anvita, her hobbies, interests, and projects.">
+    <title>Anvita's Corner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">✨ Anvita's Corner</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="food.html" class="nav-link">Food</a></li>
+                <li><a href="sports.html" class="nav-link">Sports</a></li>
+                <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+                <li><a href="favorites.html" class="nav-link">Favorites</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi! I'm Anvita 👋</h1>
+            <p class="hero-subtitle">Welcome to my corner of the internet!</p>
+            <p class="hero-description">Explore my hobbies, favorite things, and what makes me, me.</p>
+            <div class="hero-buttons">
+                <a href="about.html" class="cta-button">Get to Know Me</a>
+                <a href="#quick-preview" class="cta-button-secondary">Explore More</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <!-- Decorative background elements -->
+            <div class="doodle doodle-1">🎵</div>
+            <div class="doodle doodle-2">🏏</div>
+            <div class="doodle doodle-3">💻</div>
+            <div class="doodle doodle-4">🐯</div>
+            <div class="doodle doodle-5">🎹</div>
+            <div class="doodle doodle-6">🤖</div>
+            <div class="doodle doodle-7">🍜</div>
+        </div>
+    </section>
 
-html {
-    scroll-behavior: smooth;
-}
+    <!-- Quick Preview Section -->
+    <section class="preview" id="quick-preview">
+        <div class="container">
+            <h2 class="section-title">Discover My World ✨</h2>
+            <p class="section-subtitle">Click below to explore different aspects of my life and interests</p>
+            <div class="preview-grid">
+                <div class="preview-card">
+                    <div class="preview-icon">🎵</div>
+                    <h3>Hobbies & Activities</h3>
+                    <p>Coding, robotics, piano, swimming, and cricket!</p>
+                    <a href="hobbies.html" class="card-link">Learn More →</a>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-icon">🍜</div>
+                    <h3>Favorite Foods</h3>
+                    <p>From dosa and paratha to Italian and Mexican cuisine.</p>
+                    <a href="food.html" class="card-link">Explore →</a>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-icon">🏏</div>
+                    <h3>Sports & Cricket</h3>
+                    <p>I love playing cricket and aspire to make it my career!</p>
+                    <a href="sports.html" class="card-link">Discover →</a>
+                </div>
+                <div class="preview-card">
+                    <div class="preview-icon">🌟</div>
+                    <h3>Favorite Things</h3>
+                    <p>Tigers, Harry Potter, PE class, and so much more!</p>
+                    <a href="favorites.html" class="card-link">Explore →</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(180deg, var(--background-color) 0%, #F0E6FF 50%, #E8D5FF 100%);
-    color: var(--text-color);
-    line-height: 1.6;
-    overflow-x: hidden;
-    min-height: 100vh;
-}
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Anvita's Corner. Made with 💜 and lots of fun!</p>
+            <p class="footer-note">A playful portfolio created to share my passions and interests.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
 .container {
     max-width: 1200px;
