@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anvita's Corner – A playful personal website introducing Anvita, her hobbies, interests, and projects.">
+    <title>Anvita's Corner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #FFF9E6 0%, #F0E6FF 100%);
+            color: #2D3436;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #FF6B9D, #A29BFE);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #FF6B9D;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #FF6B9D;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: #A29BFE;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #FFF9E6;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #FFF9E6, #F0E6FF);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #FF6B9D;
+        }
+
+        .card-icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .card h4 {
+            color: #FF6B9D;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #2D3436, #A29BFE);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .animation-box {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #F0E6FF;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <h1>✨ Anvita's Corner</h1>
+            <p>Welcome to my world of hobbies, interests, and adventures!</p>
+        </header>
+
+        <!-- About Section -->
+        <section>
+            <h2>👋 About Me</h2>
+            <p><strong>My name is Anvita</strong>, and I'm 11 years old. I'm passionate about exploring new interests and creating amazing things. Welcome to my personal corner on the internet!</p>
+            <div class="highlight">
+                <strong>Quick Facts:</strong>
+                <ul style="margin-top: 10px;">
+                    <li>Age: 11 years old</li>
+                    <li>Favorite Subject: Physical Education (PE)</li>
+                    <li>Favorite Time: Lunchtime! 🍽️</li>
+                    <li>Dream: To become a professional cricketer</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section>
+            <h2>🌟 My Hobbies & Activities</h2>
+            <p>I love doing so many different things!</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h4>Coding</h4>
+                    <p>Building programs and solving problems through code!</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤖</div>
+                    <h4>Robotics</h4>
+                    <p>Creating and programming robots</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🎹</div>
+                    <h4>Piano</h4>
+                    <p>Making beautiful music</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏊</div>
+                    <h4>Swimming</h4>
+                    <p>Strong swimmer and water enthusiast</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sports Section -->
+        <section>
+            <h2>🏏 Sports & Cricket</h2>
+            <p>Cricket is my biggest passion! I play regularly and dream of becoming a professional cricketer.</p>
+            <h3>Why I Love Cricket:</h3>
+            <ul>
+                <li>Combines physical fitness with strategy</li>
+                <li>Teamwork and friendship are central</li>
+                <li>Every match is a new challenge</li>
+                <li>The thrill of hitting a good shot!</li>
+            </ul>
+            <div class="highlight">
+                <strong>My Cricket Inspiration: Smriti Mandhana 🌟</strong>
+                <p style="margin-top: 10px;">Smriti Mandhana is my favorite cricketer! She's an incredible Indian women's cricket player known for her aggressive batting style, dedication, and breaking barriers. She inspires me to practice harder and believe in myself!</p>
+            </div>
+        </section>
+
+        <!-- Food Section -->
+        <section>
+            <h2>🍜 My Favorite Foods</h2>
+            <h3>Indian Food 🇮🇳</h3>
+            <ul>
+                <li><strong>Dosa:</strong> Crispy, thin pancake with sambar and chutney</li>
+                <li><strong>Paratha:</strong> Soft, flaky Indian bread – perfect for breakfast!</li>
+                <li><strong>Biryani, Samosas, and Idli</strong></li>
+            </ul>
+            <h3>Italian Food 🇮🇹</h3>
+            <ul>
+                <li>Pasta with yummy sauces</li>
+                <li>Pizza (who doesn't love pizza?)</li>
+                <li>Gelato – Italian ice cream!</li>
+            </ul>
+            <h3>Mexican Food 🇲🇽</h3>
+            <ul>
+                <li>Tacos with delicious toppings</li>
+                <li>Burritos</li>
+                <li>Churros – sweet and crispy!</li>
+            </ul>
+        </section>
+
+        <!-- Favorites Section -->
+        <section>
+            <h2>🌈 My Favorite Things</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">🐯</div>
+                    <h4>Animal</h4>
+                    <p>Tiger – Strong, beautiful, and independent!</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧙</div>
+                    <h4>Movie</h4>
+                    <p>Harry Potter – Magic and friendship!</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏃</div>
+                    <h4>Subject</h4>
+                    <p>Physical Education – Fun and active!</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌟</div>
+                    <h4>Time of Day</h4>
+                    <p>Lunchtime – Food, friends, and fun!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cricket Animation -->
+        <section>
+            <h2>🎬 Cricket Animation</h2>
+            <div class="animation-box">
+                <p style="margin-bottom: 15px;">Inspired by Smriti Mandhana's powerful batting style!</p>
+                <svg width="250" height="280" viewBox="0 0 250 280" style="border-radius: 8px; background: #F0E6FF;">
+                    <!-- Cricket Pitch -->
+                    <line x1="20" y1="250" x2="230" y2="250" stroke="#8B7355" stroke-width="3"/>
+                    <text x="125" y="270" text-anchor="middle" font-size="12" fill="#8B7355">Cricket Pitch</text>
+
+                    <!-- Cricket Batter Figure (Female Player) -->
+                    <g style="animation: swing 2s ease-in-out infinite;">
+                        <!-- Head -->
+                        <circle cx="125" cy="60" r="12" fill="#FDBCB4" stroke="#D4927E" stroke-width="1"/>
+                        <!-- Hair -->
+                        <ellipse cx="125" cy="55" rx="14" ry="10" fill="#8B4513"/>
+                        <!-- Jersey (Blue - Indian cricket colors) -->
+                        <rect x="108" y="75" width="34" height="40" fill="#1E40AF" rx="3"/>
+                        <!-- Jersey Details -->
+                        <circle cx="125" cy="88" r="3" fill="#FFD700"/>
+                        <!-- Arms -->
+                        <line x1="108" y1="80" x2="85" y2="95" stroke="#FDBCB4" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="142" y1="80" x2="165" y2="65" stroke="#FDBCB4" stroke-width="3" stroke-linecap="round"/>
+                        <!-- Hands -->
+                        <circle cx="85" cy="95" r="4" fill="#FDBCB4"/>
+                        <circle cx="165" cy="65" r="4" fill="#FDBCB4"/>
+                        <!-- Bat -->
+                        <rect x="162" y="35" width="8" height="85" fill="#8B4513" rx="2" style="animation: bat-swing 2s ease-in-out infinite; transform-origin: 166px 35px;"/>
+                        <!-- Torso/Waist -->
+                        <rect x="110" y="113" width="30" height="15" fill="#1E40AF"/>
+                        <!-- White pants -->
+                        <rect x="105" y="128" width="40" height="50" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="1"/>
+                        <!-- Legs -->
+                        <line x1="115" y1="178" x2="110" y2="235" stroke="#FDBCB4" stroke-width="3" stroke-linecap="round"/>
+                        <line x1="135" y1="178" x2="145" y2="235" stroke="#FDBCB4" stroke-width="3" stroke-linecap="round"/>
+                        <!-- Shoes -->
+                        <ellipse cx="110" cy="240" rx="5" ry="4" fill="#2D3436"/>
+                        <ellipse cx="145" cy="240" rx="5" ry="4" fill="#2D3436"/>
+                    </g>
+
+                    <!-- Cricket Ball -->
+                    <g style="animation: ball-bounce 1.5s ease-in-out infinite;">
+                        <circle cx="70" cy="50" r="7" fill="#FF6B6B" stroke="#8B0000" stroke-width="1"/>
+                        <path d="M 66 50 Q 70 54 74 50" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p><strong>Anvita's Corner 💜</strong></p>
+            <p>Made with creativity, passion, and lots of fun!</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">© 2025 – All rights reserved</p>
+        </footer>
+    </div>
+
+    <style>
+        @keyframes swing {
+            0%, 100% { transform: rotate(-45deg); }
+            50% { transform: rotate(45deg); }
+        }
+
+        @keyframes bat-swing {
+            0%, 100% { transform: rotate(-45deg); transform-origin: 166px 35px; }
+            50% { transform: rotate(45deg); transform-origin: 166px 35px; }
+        }
+
+        @keyframes ball-bounce {
+            0%, 100% { transform: translateY(0); }
+            25% { transform: translateY(-40px); }
+            50% { transform: translateY(0); }
+            75% { transform: translateY(-20px); }
+        }
+    </style>
+</body>
+</html>

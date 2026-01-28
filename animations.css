@@ -1,0 +1,69 @@
+/* ===== Cricket Animation SVG ===== */
+.cricket-bat-swing {
+    animation: swing 2s ease-in-out infinite;
+    transform-origin: 166px 35px;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(-45deg);
+    }
+}
+
+.cricket-ball-bounce {
+    animation: ballBounce 1.5s ease-in-out infinite;
+}
+
+@keyframes ballBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-40px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-20px);
+    }
+}
+
+.cricket-batter-animated {
+    animation: batterStance 2.5s ease-in-out infinite;
+    transform-origin: 125px 150px;
+}
+
+@keyframes batterStance {
+    0%, 100% {
+        transform: translateX(0) rotate(0deg);
+    }
+    25% {
+        transform: translateX(-3px) rotate(-2deg);
+    }
+    50% {
+        transform: translateX(0) rotate(0deg);
+    }
+    75% {
+        transform: translateX(2px) rotate(1deg);
+    }
+}
+
+.sparkle-animation {
+    animation: sparkle 2s ease-in-out infinite;
+}
+
+@keyframes sparkle {
+    0%, 100% {
+        opacity: 0.3;
+    }
+    50% {
+        opacity: 1;
+    }
+}
